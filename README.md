@@ -4,6 +4,10 @@
 
 - [SGLang #46282](https://github.com/sgl-project/sglang/pull/46282) · Co-authored the Ascend Ops backend for MoE prefill and decode. Merged into SGLang.
 
+## Open-source tools
+
+- [Contribution Canvas](https://github.com/ShaqG/contribution-canvas) · An offline editor for GitHub contribution graph art, with JSON export and a local Git history generator.
+
 <!--
 **ShaqG/ShaqG** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
