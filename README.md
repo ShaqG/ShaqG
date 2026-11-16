@@ -3,6 +3,7 @@
 ## Open-source contributions
 
 - [SGLang #46282](https://github.com/sgl-project/sglang/pull/46282) · Co-authored the Ascend Ops backend for MoE prefill and decode. Merged into SGLang.
+- [SGLang #50691](https://github.com/sgl-project/sglang/pull/50691) · Contributed DeepSeek-V4 operator API migration and MegaMoE compatibility across `sgl-kernel-npu` builds on Ascend NPUs. Open PR.
 
 ## Open-source tools
 
