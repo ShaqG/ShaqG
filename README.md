@@ -3,7 +3,7 @@
 ## Open-source contributions
 
 - [SGLang #46282](https://github.com/sgl-project/sglang/pull/46282) · Co-authored the Ascend Ops backend for MoE prefill and decode. Merged into SGLang.
-- [SGLang #50691](https://github.com/sgl-project/sglang/pull/50691) · Contributed to fused MegaMoE prefill and decode on Ascend NPUs, focusing on the DeepSeek-V4 operator API migration and compatibility across `sgl-kernel-npu` builds. Merged into SGLang.
+- [SGLang #50691](https://github.com/sgl-project/sglang/pull/50691) · Co-authored fused MegaMoE support for prefill and decode on Ascend NPUs. Added a CANN fallback for older `sgl-kernel-npu` builds, shared a symmetric buffer across prefill and decode, and improved W8A8 weight loading. Merged into SGLang.
 
 ## Open-source tools
 
