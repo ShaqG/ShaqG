@@ -9,7 +9,7 @@ LLM inference on Ascend NPUs: MoE dispatch, expert parallelism, and the serving 
 
 ## Open-source projects
 
-- [Inference ER](https://github.com/ShaqG/inference-er) · 60-second browser games that put you on call in an LLM serving stack: request scheduling, MoE expert triage with rebalancing and redundant experts, and speculative decoding. [Play online](https://shaqg.github.io/inference-er/).
+- [Inference ER](https://github.com/ShaqG/inference-er) · 60-second browser games that put you on call in an LLM serving stack: request scheduling, MoE expert triage with rebalancing and redundant experts, speculative decoding, and prefill/decode disaggregation. [Play online](https://shaqg.github.io/inference-er/).
 - [Contribution Canvas](https://github.com/ShaqG/contribution-canvas) · An offline editor for GitHub contribution graph art, with JSON export and a local Git history generator.
 
 <!--
