@@ -1,28 +1,14 @@
-## Hi there 👋
+## Hi, I’m ShaqG
 
-LLM inference on Ascend NPUs: MoE dispatch, expert parallelism, and the serving stack around them.
+I work on LLM serving on Ascend NPUs, focusing on MoE dispatch, expert-parallel communication, and prefill/decode execution.
 
-## Open-source contributions
+**[Play Inference ER](https://shaqg.github.io/inference-er/)** · Four 60-second browser games about the trade-offs behind LLM serving. [Source code](https://github.com/ShaqG/inference-er)
 
-- [SGLang #46282](https://github.com/sgl-project/sglang/pull/46282) · Co-authored the Ascend Ops backend for MoE prefill and decode. Merged into SGLang.
-- [SGLang #50691](https://github.com/sgl-project/sglang/pull/50691) · Co-authored fused MegaMoE support for prefill and decode on Ascend NPUs. Added a CANN fallback for older `sgl-kernel-npu` builds, shared a symmetric buffer across prefill and decode, and improved W8A8 weight loading. Merged into SGLang.
+## Selected upstream contributions
 
-## Open-source projects
+- [SGLang #46282](https://github.com/sgl-project/sglang/pull/46282) · Co-authored the Ascend Ops MoE backend. Implemented the MC2 low-latency decode path, including padding-buffer reuse and MXFP8 dispatch fixes.
+- [SGLang #50691](https://github.com/sgl-project/sglang/pull/50691) · Co-authored fused MegaMoE for prefill and decode, including shared EP buffers, a CANN fallback for older `sgl-kernel-npu` builds, and W8A8 weight-loading improvements.
 
-- [Inference ER](https://github.com/ShaqG/inference-er) · 60-second browser games that put you on call in an LLM serving stack: request scheduling, MoE expert triage with rebalancing and redundant experts, speculative decoding, and prefill/decode disaggregation. [Play online](https://shaqg.github.io/inference-er/).
+## Other projects
+
 - [Contribution Canvas](https://github.com/ShaqG/contribution-canvas) · An offline editor for GitHub contribution graph art, with JSON export and a local Git history generator.
-
-<!--
-**ShaqG/ShaqG** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
